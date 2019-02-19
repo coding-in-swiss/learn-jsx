@@ -1,69 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# learn-jsx
+#Sup, Stewart! Before We Start...
+We Need To Step Up Some Things:
+*There is a lot to download coming up...*
+1. Create a Projects Folder
+   - Open your terminal and type ```cd ~ ```.
+   - Make a directory called "Projects" ```mkdir Projects``` (we will be creating all of our projects in this folder).
+   - ```cd``` into ```Projects```.
+2. Make a new directory for our new project and call it whatever you want.
+   - ```cd``` into that directory.
+3. Check if you have Node downloaded.
+   - ```node -v```
+     - If you recieved an error, [Download The Current Version of Node Here](https://nodejs.org/en/)
+4. Verify Node has Downloaded
+   - ```node -v```
+5. Verify That you have NPM 
+   - Npm should be included in the download of Node.js
+     - ```npm -v```
+6. Download Create React App Globally
+   - ```npm i create-react-app -g```
+     - "node package manager install 'create-react-app- globally"
+   - If you receive a ```ERR!Error: EACCES``` error, put ```sudo``` in front of the command. This will prompt you to type in your password.
+7. Open VS Code
+8. Download Quokka.js for VSCode
+   - In VS Code, click the square icon on the left underneith the bug icon.
+   - Type in "quokka.js" and download the first option.
+   - Click the "install" button.
+*Quokka.js will give you live updates while you type. It makes things easier.*
+9. Download Prettier for VSCode
+   - Type in "prettier" in the search bar and download the first option.
+*Prettier automatically formats the code you write.*
+10. Configure Prettier to Format Code on Save
+   - At the very top left of your screen click __Code__ => __Preferences__ => __Settings__.
+   - Type "prettier" into the search bar.
+   - Click "User Settings"
+   - Click "Edit in settings.json" underneath the "Disable Languages" section.
+   - Copy and paste ```"editor.formatOnSave": true,``` inside of the brackets and save the file.
+11. Install Shell Command for Terminal
+   - Hold ``` CMD + Shift + P ``` and type "Shell Command" into the search bar.
+   - Install code command in PATH.
+*This will allow you to type ```code .``` inside of your project directory to automatically open your entire project inside of VSCode without going through the long process.*
