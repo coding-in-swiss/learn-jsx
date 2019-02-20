@@ -16,7 +16,7 @@ Clone this repository into a directory within your ```Projects``` folder.
 
 ## Making Changes
 When you make changes to the project, you will need to work on your on branch within Git.
- __IMPORTANT: MAKE SURE YOU PULL ANY CHANGES AND MERGE THEM ONTO YOUR BRANCH BEFORE YOU START CODING__
+ __IMPORTANT: MAKE SURE YOU PULL ANY CHANGES AND MERGE THEM ONTO YOUR OWN BRANCH BEFORE YOU START CODING!__
   1. Pull any changes from the Master Branch before your start working.
      1. ``` git checkout master ```
      2. ``` git pull origin master ```
@@ -36,4 +36,4 @@ When you make changes to the project, you will need to work on your on branch wi
      3. ``` git commit -m '*write a comment of what you are committing here*' ```
        - *Commits the changes to your branch*
   6. Push your committed changes to GitHub.
-     - ``` git push origin [nameOfBranch] ```
+     - ``` git push origin [nameOfYourBranch] ```
