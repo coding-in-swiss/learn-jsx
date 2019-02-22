@@ -33,7 +33,7 @@ When you make changes to the project, you will need to work on your on branch wi
        - *Shows all uncommitted changes.*
      2. ``` git add . ``` 
        - *Adds all uncommitted changes to the que.*
-     3. ``` git commit -m '*write a comment of what you are committing here*' ```
+     3. ``` git commit -m 'write a comment about what you are committing here' ```
        - *Commits the changes to your branch*
   6. Push your committed changes to GitHub.
      - ``` git push origin [nameOfYourBranch] ```
