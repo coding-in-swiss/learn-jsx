@@ -12,7 +12,7 @@ Clone this repository into a directory within your ```Projects``` folder.
   7. Run `npm start` to run the project.
   8. In your project's directory in your terminal, create a new branch and switch over to it.
      - ``` git checkout -b stewsBranch ```
-     - *This command __CREATES__ a new branch named "stewsBranch" (you can call it whatever you want) and it automatically switches to it. __You only need to do this once__.*
+     - *This command __CREATES__ a new branch named "blancosBranch" (you can call it whatever you want) and it automatically switches to it. __You only need to do this once__.*
 
 ## Making Changes
 When you make changes to the project, you will need to work on your on branch within Git.
