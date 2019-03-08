@@ -11,11 +11,6 @@ class Body extends Component {
       number: this.state.number + 1
     });
   };
-  decreaseNumber = () => {
-    this.setState({
-      number: this.state.number - 1
-    });
-  };
   render() {
     return (
       <div className="outercontainer">
@@ -23,11 +18,15 @@ class Body extends Component {
           {" "}
           Increase number{" "}
         </button>
-        <button className="bodybutton" onClick={() => this.decreaseNumber()}>
-          {" "}
-          Decrease number{" "}
-        </button>
         {this.state.number}
+        <button className="box-1" />
+        <button className="box-2" />
+        <button className="box-3" />
+        <img
+          src="https://wonderfulengineering.com/wp-content/uploads/2014/09/graffiti-wallpaper-11.jpg"
+          className="showcase"
+        />
+        <div />
       </div>
     );
   }
